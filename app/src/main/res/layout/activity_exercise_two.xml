@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/exerciseTwo"
+    tools:context="com.example.android.funexercises.ExerciseTwoActivity">
+
+    <!-- user can type in their text here; max. 20 characters -->
+    <EditText
+        android:layout_marginTop="@dimen/paddingOrMar_XXXL"
+        android:layout_marginBottom="@dimen/paddingOrMar_XXXL"
+        android:inputType="text"
+        android:maxLength="20"
+        style="@style/ExerciseStyle"
+        android:background="@color/exerciseTwo_ParagraphOne"
+        android:text="@string/text"
+        android:textAllCaps="true"/>
+
+    <!-- button hooked up with a method that changes the input text -->
+    <Button
+        android:layout_marginTop="@dimen/paddingOrMar_XXXL"
+        android:layout_marginBottom="@dimen/paddingOrMar_XXXL"
+        style="@style/ExerciseStyle"
+        android:textStyle="normal"
+        android:background="@drawable/mybutton2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/change_text"
+        android:onClick="changeText"/>
+
+    <!-- textview set to display the transformed text -->
+    <TextView
+        style="@style/ExerciseStyle"
+        android:id="@+id/changedTextView"
+        android:background="@color/exerciseTwo_ParagraphOne"
+        android:text="@string/changed_text" />
+
+</LinearLayout>

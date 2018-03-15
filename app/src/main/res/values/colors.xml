@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRed">#FF5722</color>
+    <color name="backgroundGreen">#C5E1A5</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="exerciseOne">#DCE775</color>
+    <color name="exerciseTwo">#00C853</color>
+    <color name="exerciseThree">#9575CD</color>
+
+    <color name="exerciseOne_ParagraphOne">#FFB74D</color>
+    <color name="exerciseOne_ParagraphTwo">#EF6C00</color>
+    <color name="exercisesWhite">#FFFFFF</color>
+    <color name="exercisesGray">#CFD8DC</color>
+
+    <color name="exerciseTwo_ParagraphOne">#C5E1A5</color>
+    <color name="exerciseTwo_ParagraphTwo">#558B2F</color>
+
+    <color name="exerciseThree_ParagraphOne">#D1C4E9</color>
+    <color name="exerciseThree_ParagraphTwo">#9575CD</color>
+    <color name="exerciseThree_ButtonOne">#EF5350</color>
+    <color name="exerciseThree_ButtonTwo">#D81B60</color>
+
+
+</resources>

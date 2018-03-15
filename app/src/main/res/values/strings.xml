@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FunExercises</string>
+
+    <string name="exercise1">Exercise 1</string>
+    <string name="exercise2">Exercise 1</string>
+    <string name="exercise3">Exercise 1</string>
+    
+    <!--Strings for Exercise 1. -->
+    <string name="create_list">Create list</string>
+    <string name="created_list">Created list:</string>
+    <string name="calculate_average">Get average of odd numbers</string>
+    <string name="list"></string>
+    <string name="average">Calculated average:</string>
+
+    <!--Strings for Exercise 2. -->
+    <string name="text">text</string>
+    <string name="change_text">change text!</string>
+    <string name="changed_text">Changed text:</string>
+
+    <!--Strings for Exercise 2. -->
+    <string name="number_of_cards">Type in the number of of cards</string>
+    <string name="generate_deck">Tap here to generate deck</string>
+    <string name="shuffle">Shuffle deck!</string>
+    <string name="draw_a_card">Draw a card!</string>
+    <string name="card_drawn">Card drawn:</string>
+</resources>

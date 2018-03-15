@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:background">@color/backgroundGreen</item>
+    </style>
+    
+    <style name="ExerciseStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/textSize_M</item>
+        <item name="android:paddingLeft">@dimen/paddingOrMar_L</item>
+        <item name="android:paddingRight">@dimen/paddingOrMar_L</item>
+        <item name="android:paddingTop">@dimen/paddingOrMar_L</item>
+        <item name="android:paddingBottom">@dimen/paddingOrMar_L</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+</resources>

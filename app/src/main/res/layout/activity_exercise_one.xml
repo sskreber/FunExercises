@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/exerciseOne"
+    android:orientation="vertical"
+    tools:context="com.example.android.funexercises.ExerciseOneActivity">
+
+    <Button
+        android:layout_marginTop="@dimen/paddingOrMar_XXXL"
+        android:layout_marginBottom="@dimen/paddingOrMar_XXXL"
+        style="@style/ExerciseStyle"
+        android:background="@drawable/mybutton2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/create_list"
+        android:onClick="createList"/>
+
+    <Button
+        android:layout_marginBottom="@dimen/paddingOrMar_XXXL"
+        android:textStyle="normal"
+        style="@style/ExerciseStyle"
+        android:background="@drawable/mybutton2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/calculate_average" />
+
+    <!-- a linear layout into which elements of the list will be added
+    as child views-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/listView"
+        style="@style/ExerciseStyle"
+        android:background="@color/exercisesWhite"
+        android:paddingTop="@dimen/paddingOrMar_XXXL"
+        android:text="@string/list"
+        android:textColor="@color/colorBlack">
+
+    <TextView
+        style="@style/ExerciseStyle"
+        android:background="@color/exercisesWhite"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/created_list" />
+
+</LinearLayout>
+
+    <!-- displays the calculated average of the list's odd numbers -->
+    <TextView
+        android:id="@+id/averageView"
+        style="@style/ExerciseStyle"
+        android:background="@color/exercisesGray"
+        android:paddingTop="@dimen/paddingOrMar_XXXL"
+        android:text="@string/average"
+        android:onClick="generateAverage"/>
+
+</LinearLayout>

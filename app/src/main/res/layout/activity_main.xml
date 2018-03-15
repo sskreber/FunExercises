@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.funexercises.MainActivity">
+
+    <TextView
+        style="@style/ExerciseStyle"
+        android:background="@color/exerciseOne"
+        android:text="@string/exercise1"
+        android:onClick="startExerciseOne"/>
+
+    <TextView
+        style="@style/ExerciseStyle"
+        android:background="@color/exerciseTwo"
+        android:text="@string/exercise2"
+        android:onClick="startExerciseTwo"/>
+
+    <TextView
+        style="@style/ExerciseStyle"
+        android:background="@color/exerciseThree"
+        android:text="@string/exercise3"
+        android:onClick="startExerciseThree"/>
+
+</LinearLayout>
