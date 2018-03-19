@@ -18,7 +18,7 @@
     <string name="changed_text">Changed text:</string>
 
     <!--Strings for Exercise 2. -->
-    <string name="number_of_cards">Type in the number of of cards</string>
+    <string name="number_of_cards">Type in the number of cards</string>
     <string name="generate_deck">Tap here to generate deck</string>
     <string name="shuffle">Shuffle deck!</string>
     <string name="draw_a_card">Draw a card!</string>
